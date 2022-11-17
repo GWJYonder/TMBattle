@@ -1,0 +1,15 @@
+C:\Users\Micha\Documents\GitHub\TMBattle\obj\Debug\net6.0\TMBattle.csproj.AssemblyReference.cache
+C:\Users\Micha\Documents\GitHub\TMBattle\obj\Debug\net6.0\TMBattle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Micha\Documents\GitHub\TMBattle\obj\Debug\net6.0\TMBattle.AssemblyInfoInputs.cache
+C:\Users\Micha\Documents\GitHub\TMBattle\obj\Debug\net6.0\TMBattle.AssemblyInfo.cs
+C:\Users\Micha\Documents\GitHub\TMBattle\obj\Debug\net6.0\TMBattle.csproj.CoreCompileInputs.cache
+C:\Users\Micha\Documents\GitHub\TMBattle\bin\Debug\net6.0\TMBattle.exe
+C:\Users\Micha\Documents\GitHub\TMBattle\bin\Debug\net6.0\TMBattle.deps.json
+C:\Users\Micha\Documents\GitHub\TMBattle\bin\Debug\net6.0\TMBattle.runtimeconfig.json
+C:\Users\Micha\Documents\GitHub\TMBattle\bin\Debug\net6.0\TMBattle.dll
+C:\Users\Micha\Documents\GitHub\TMBattle\bin\Debug\net6.0\TMBattle.pdb
+C:\Users\Micha\Documents\GitHub\TMBattle\obj\Debug\net6.0\TMBattle.dll
+C:\Users\Micha\Documents\GitHub\TMBattle\obj\Debug\net6.0\refint\TMBattle.dll
+C:\Users\Micha\Documents\GitHub\TMBattle\obj\Debug\net6.0\TMBattle.pdb
+C:\Users\Micha\Documents\GitHub\TMBattle\obj\Debug\net6.0\TMBattle.genruntimeconfig.cache
+C:\Users\Micha\Documents\GitHub\TMBattle\obj\Debug\net6.0\ref\TMBattle.dll
