@@ -1,3 +1,5 @@
 
 *.dll
 *.pdb
+bin/
+obj/
