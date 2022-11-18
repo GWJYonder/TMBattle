@@ -15,6 +15,7 @@ armyDefinitionB.SetAssignedUnit(UnitDefinition.Spearman, 10);
 armyDefinitionB.SetAssignedUnit(UnitDefinition.Warrior, 20);
 armyDefinitionB.SetAssignedUnit(UnitDefinition.Archer, 20);
 
-var simulator = new VanillaSimulator(armyDefinitionA, armyDefinitionB);
+//var simulator = new VanillaSimulator(armyDefinitionA, armyDefinitionB);
+var simulator = new CustomSimulator(armyDefinitionA, armyDefinitionB);
 simulator.Simulate();
 

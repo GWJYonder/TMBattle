@@ -2,17 +2,17 @@ namespace TMBattle.Models
 {
     public class ArmyStatSummary
     {
-        public int TotalAttack { get; set; }
+        public double TotalAttack { get; set; }
 
         public int TotalDefense { get; set; }
 
-        public int TankAttack { get; set; }
+        public double TankAttack { get; set; }
 
-        public int ShockAttack { get; set; }
+        public double ShockAttack { get; set; }
 
-        public int RangedAttack { get; set; }
+        public double RangedAttack { get; set; }
 
-        public int CavalryAttack { get; set; }
+        public double CavalryAttack { get; set; }
 
         public int ZeroRankDefense { get; set; }
 
@@ -29,6 +29,7 @@ namespace TMBattle.Models
 
             var attackChange = add ? unit.Attack : -unit.Attack;
             TotalAttack += attackChange;
+            TotalAttack = Math.Round(TotalAttack, 1);
             switch (unit.Definition.Type)
             {
                 case UnitType.Tank:

@@ -4,7 +4,7 @@ namespace TMBattle.Models
     {
         public UnitDefinition Definition { get; }
 
-        public int Attack { get; }
+        public double Attack { get; }
         public int Defense { get; }
 
         public double CurrentHealth { get; set; }
@@ -13,10 +13,19 @@ namespace TMBattle.Models
         {
             Definition = definition;
             // Currently no tech/spells/etc implemented
-            Attack = definition.BaseAttack;
+            Attack = definition.BaseAttack / 2.0;
             Defense = definition.BaseDefense;
 
             CurrentHealth = definition.BaseDefense;
+        }
+
+        public static Unit Clone(Unit unit)
+        {
+            var clone = new Unit(unit.Definition)
+            {
+                CurrentHealth = unit.CurrentHealth
+            };
+            return clone;
         }
     }
 }

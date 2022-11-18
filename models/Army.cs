@@ -16,7 +16,7 @@ namespace TMBattle.Models
 
         public ArmyStatSummary Stats { get; }
 
-        private readonly Random _random = new Random();
+        private readonly Random _random = new();
 
         public Army(ArmyDefinition definition)
         {
@@ -52,6 +52,29 @@ namespace TMBattle.Models
             GetRankList(rank).RemoveAt(i);
             Stats.UpdateStats(lost, rank, false);
             RemoveFromRemainingUnits(lost);
+        }
+
+        public IList<Unit> GetRoundOffensiveUnits()
+        {
+            var offense = new List<Unit>();
+            foreach (var unit in ZeroRank)
+            {
+                offense.Add(Unit.Clone(unit));
+            }
+            foreach (var unit in FrontRank)
+            {
+                offense.Add(Unit.Clone(unit));
+            }
+            foreach (var unit in MidRank)
+            {
+                offense.Add(Unit.Clone(unit));
+            }
+            foreach (var unit in BackRank)
+            {
+                offense.Add(Unit.Clone(unit));
+            }
+
+            return offense;
         }
 
         private void RemoveFromRemainingUnits(Unit removed)
